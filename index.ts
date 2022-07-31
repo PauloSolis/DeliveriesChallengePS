@@ -7,9 +7,11 @@ import fs from 'fs';
 import readline from 'readline';
 
 
-
 let drivers: Driver[];
-let addresses: Address[];
+console.log('Type the drivers file');
+drivers = getFileContent('drivers.txt');
+console.log('Type the addresses file');
+let addresses: Address[] = getFileContent('addresses.txt');
 /**
  * Constant to match VOWELS for the score algorithm.
  */
@@ -73,7 +75,7 @@ addresses.forEach(address => {
 
 
 // Prints the final results
-console.log(finalDeliveries);
+console.log('Entregas: ', finalDeliveries);
 
 /** #region This section calculates the address score according to the next conditions 
  * - If the length of the shipment's destination street name is even, the base suitability scoreis the number of
@@ -135,12 +137,3 @@ function getFileContent(fileName: string): Driver[] | Address[] {
     throw(error);
   }
 }
-
-async function main(){
-  console.log('Type the drivers file');
-drivers = getFileContent('drivers.txt');
-console.log('Type the addresses file');
-  addresses = getFileContent('test.txt');
-}
-
-await main();

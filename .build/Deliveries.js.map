@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../Deliveries.ts"],
+  "sourcesContent": ["export class Deliveries {\n  driver: string;\n  address: string;\n  score: number;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAO,iBAAiB;AAAA,EACtB;AAAA,EACA;AAAA,EACA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../Driver.ts"],
+  "sourcesContent": ["export class Driver {\n  name: string;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAO,aAAa;AAAA,EAClB;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../Address.ts"],
+  "sourcesContent": ["export class Address {\n  name: string;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAO,cAAc;AAAA,EACnB;AAAA;",
+  "names": []
+}
